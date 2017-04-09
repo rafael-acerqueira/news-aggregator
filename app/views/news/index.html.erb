@@ -1,0 +1,11 @@
+<% @news.each do |news| %>
+  <div class="new">
+    <h1 class="title"><%= news.title %></h1>
+
+    <span class="description"><%= news.description %></span>
+
+    <a href="<%= news.link %>" target="_blank" class="link-to-news">See more</a>
+
+    <span>Data de atualização: <%= news.created_at %></span>
+  </div>
+<% end %>
