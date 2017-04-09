@@ -1,10 +1,14 @@
 .new{
   margin-bottom: 30px;
   padding: 15px;
-  border-bottom: 2px solid #e6e6e6;
+  border-bottom: 2px solid #fff;
 }
 
-.title{
+.title {
+  text-align: center;
+}
+
+.news-title{
   display: block;
   font-size: 20px;
 }
@@ -16,5 +20,10 @@
 
 .link-to-news{
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 15px;  
+  color: #000;
+}
+
+body {
+  background-color: #e6e6e6;
 }
